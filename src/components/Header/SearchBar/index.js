@@ -1,12 +1,12 @@
 import React from "react";
 
-import "./styles.css";
+import "./styles.scss";
 
 function SearchBar() {
   return (
     <>
       <div className="wrapperSearchBar">
-        <div className="triangulo" />
+        <div className="trianguloSearch" />
         <form className="searchWrapper">
           <input
             type="search"

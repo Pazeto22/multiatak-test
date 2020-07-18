@@ -1,0 +1,80 @@
+.cListWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fdfdfd;
+  font-size: 13px;
+  background-color: #141414;
+}
+
+.cListWrapper ul {
+  display: flex;
+
+  li {
+    display: grid;
+    grid-template-columns: 30px 1fr;
+    grid-gap: 0.5rem;
+  }
+}
+
+.cListWrapper li {
+  list-style: none;
+  padding: 14px;
+  border: 5px solid transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+
+  &:hover {
+    border-bottom: 5px solid #a70000;
+  }
+}
+
+.cListIcons {
+  width: 26px;
+  height: 26px;
+  background-repeat: no-repeat;
+}
+
+.cLSomVideo {
+  background-image: url("../../../assets/iconeshome/icones-categorias/som-e-video-cinza.svg");
+  li:hover & {
+    background-image: url("../../../assets/iconeshome/icones-categorias/som-e-video-vermelho.svg");
+  }
+}
+
+.cLFLI {
+  background-image: url("../../../assets/iconeshome/icones-categorias/farois-lanternas-cinza.svg");
+  li:hover & {
+    background-image: url("../../../assets/iconeshome/icones-categorias/farois-lanternas-vermelho.svg");
+  }
+}
+
+.cLAcessoriosI {
+  background-image: url("../../../assets/iconeshome/icones-categorias/acessorios-internos-cinza.svg");
+  li:hover & {
+    background-image: url("../../../assets/iconeshome/icones-categorias/acessorios-internos-vermelho.svg");
+  }
+}
+
+.cLAcessoriosE {
+  background-image: url("../../../assets/iconeshome/icones-categorias/acessorios-externos-cinza.svg");
+  li:hover & {
+    background-image: url("../../../assets/iconeshome/icones-categorias/acessorios-externos-vermelho.svg");
+  }
+}
+
+.cLVestuario {
+  background-image: url("../../../assets/iconeshome/icones-categorias/vestuario-cinza.svg");
+  li:hover & {
+    background-image: url("../../../assets/iconeshome/icones-categorias/vestuario-vermelho.svg");
+  }
+}
+
+.cLInfantil {
+  background-image: url("../../../assets/iconeshome/icones-categorias/infantil-cinza.svg");
+  li:hover & {
+    background-image: url("../../../assets/iconeshome/icones-categorias/infantil-vermelho.svg");
+  }
+}

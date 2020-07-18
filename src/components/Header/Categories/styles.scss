@@ -1,0 +1,71 @@
+.categoriesWrapper {
+  // width: calc(33% - 72px);
+  margin-right: 72px;
+}
+
+.categoriesMenu {
+  background-color: #1b1b1b;
+  color: #fdfdfd;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding-left: 2rem;
+
+  &:hover .categoriesMore {
+    display: block;
+  }
+}
+
+.categoriesBtn {
+  height: auto;
+  margin-right: 2rem;
+  font-size: 13px;
+  display: grid;
+  grid-template-columns: 30px 1fr;
+  align-items: center;
+  justify-items: center;
+  grid-gap: 0.5rem;
+  cursor: pointer;
+  pointer-events: auto;
+}
+
+.categoriesHamburguer {
+  width: 26px;
+  height: 26px;
+  background-image: url(../../../assets/iconeshome/hamburguer.svg);
+  background-repeat: no-repeat;
+}
+
+.categoriesWrapper .trianguloCat {
+  height: 72px;
+  width: 72px;
+  background-image: url(../../../assets/iconeshome/icones-header/triangulo-cinza.svg);
+  background-repeat: no-repeat;
+  margin-right: -72px;
+}
+
+/* Menu escondido */
+
+.categoriesMore {
+  background-color: #1b1b1b;
+  width: 100%;
+  color: #fdfdfd;
+  transition: linear 0.2s;
+  margin-top: -56px;
+  display: none;
+
+  ul {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+
+    li {
+      list-style: none;
+      padding: 1rem 0.5rem;
+    }
+
+    li + li {
+      margin-left: 3rem;
+    }
+  }
+}

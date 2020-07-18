@@ -1,6 +1,6 @@
 import React from "react";
 
-import "./style.css";
+import "./style.scss";
 
 import logo from "../../../assets/iconeshome/logo/logo-header.svg";
 
