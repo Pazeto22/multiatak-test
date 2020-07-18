@@ -1,0 +1,68 @@
+.wrapperSearchBar {
+  width: auto;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.wrapperSearchBar .triangulo {
+  height: 96px;
+  width: 96px;
+  background-image: url(../../../assets/triangulo-esquerda-banner.svg);
+  background-repeat: no-repeat;
+  transform: scaleY(-1);
+  z-index: 3;
+  margin-right: -96px;
+}
+
+.searchWrapper {
+  display: flex;
+}
+
+.searchBar {
+  width: 360px;
+  font-size: 14px;
+  padding: calc(1rem - 5px);
+  padding-left: 72px;
+  background: none;
+  background-color: #242424;
+  color: #fdfdfd;
+  border: none;
+}
+
+::placeholder {
+  color: #7d7d7d;
+  opacity: 1;
+}
+
+input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-results-button,
+input[type="search"]::-webkit-search-results-decoration {
+  -webkit-appearance: none;
+}
+
+.submitBg {
+  width: 94px;
+  height: 44px;
+  background-color: red;
+  background-image: url(../../../assets/iconeshome/icones/cart-desktop-bg.png);
+  background-repeat: no-repeat;
+}
+
+.searchSubmit {
+  width: 94px;
+  height: 44px;
+  color: transparent;
+  background: none;
+  background-image: url(../../../assets/iconeshome/icones/cart-desktop-btn.png);
+  /* background-image: url(../../../assets/iconeshome/icones-header/botao-lupa.svg); */
+  background-repeat: no-repeat;
+  border: none;
+  transition: all 0.5s ease-out;
+  cursor: pointer;
+}
+
+.searchSubmit:hover {
+  filter: brightness(85%);
+}

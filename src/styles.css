@@ -1,0 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu");
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  box-sizing: border-box;
+  line-height: 150%;
+}
+
+body {
+  font-family: Ubuntu, sans-serif;
+  background: #fdfdfd;
+  color: #212121;
+}

@@ -1,0 +1,35 @@
+a {
+  text-decoration: none;
+  color: #fdfdfd;
+  font-weight: lighter;
+  font-size: 14px;
+}
+
+.wrapperHeaderMenu {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  font-size: 14px;
+  grid-gap: 3rem;
+  justify-items: center;
+  align-items: center;
+  margin: 2rem;
+}
+
+.cService::before,
+.myAccount::before {
+  content: "";
+  width: 21px;
+  height: 21px;
+  background-repeat: no-repeat;
+  display: inline-block;
+  padding-right: 0.5rem;
+  vertical-align: -24%;
+}
+
+.cService::before {
+  background-image: url(../../../assets/iconeshome/icones-header/atendimento.svg);
+}
+
+.myAccount::before {
+  background-image: url(../../../assets/iconeshome/icones-header/minha-conta.svg);
+}
