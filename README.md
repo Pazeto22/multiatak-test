@@ -1,3 +1,15 @@
+## Instalação e uso
+
+Para instalar execute o comando:
+
+### `yarn install`
+
+Para executar utilize o comando:
+
+### `yarn start`
+
+## React Redme
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts

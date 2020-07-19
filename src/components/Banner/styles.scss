@@ -1,0 +1,37 @@
+.bannerWrapper {
+  margin-top: 168px;
+
+  @media (max-width: 1023px) {
+    margin-top: 108px;
+  }
+}
+
+.bannerWrpDesktop {
+  width: 100%;
+  height: auto;
+  clip-path: polygon(0 0, 100% 0, 85% 100%, 15% 100%);
+  overflow: hidden;
+
+  img {
+    width: inherit;
+    height: inherit;
+  }
+
+  @media (max-width: 1024px) {
+    display: none;
+  }
+}
+
+.bannerWrpMobile {
+  width: 100%;
+  height: auto;
+
+  img {
+    width: inherit;
+    height: inherit;
+  }
+
+  @media (min-width: 1023px) {
+    display: none;
+  }
+}
