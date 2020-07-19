@@ -1,0 +1,25 @@
+.brandmenuWrapper {
+  @media (min-width: 1023px) {
+    display: none;
+  }
+  height: 100%;
+  width: auto;
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+}
+
+.myAccountRM {
+  height: 16px;
+  width: 16px;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  img {
+    height: 16px;
+    width: auto;
+    // padding: 1rem;
+  }
+}

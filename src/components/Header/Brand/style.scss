@@ -1,5 +1,9 @@
 /* Área branca - Logo */
 
+.brand a {
+  line-height: 0;
+}
+
 .brand {
   height: 100%;
   width: 33%;
@@ -8,9 +12,59 @@
   display: flex;
   justify-content: flex-end;
   align-items: center;
+
+  @media (max-width: 1023px) {
+    width: 100%;
+    height: 48px;
+    justify-content: flex-start;
+    padding: 0;
+  }
 }
+
+// Menu Responsivo
+
+.responsiveMenu {
+  width: 60px;
+  height: 100%;
+  background-color: #1b1b1b;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  @media (min-width: 1024px) {
+    display: none;
+  }
+}
+
+.menuRM {
+  padding: 1rem;
+}
+
+.hamburguerRM {
+  margin-left: 1rem;
+  width: 14px;
+  height: 14px;
+  background-image: url(../../../assets/iconeshome/hamburguer.svg);
+  background-repeat: no-repeat;
+}
+
+.trianguloRM {
+  height: 48px;
+  width: 48px;
+  background-image: url(../../../assets/iconeshome/icones-header/triangulo-cinza.svg);
+  background-repeat: no-repeat;
+  @media (min-width: 1024px) {
+    display: none;
+  }
+}
+
+// Fim Menu Responsivo
 
 .brand img {
   height: 36px;
   width: auto;
+
+  @media (max-width: 1023px) {
+    height: 24px;
+  }
 }

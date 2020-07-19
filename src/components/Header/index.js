@@ -11,20 +11,18 @@ import ShoppingCart from "./ShoppingCart";
 
 function Header() {
   return (
-    <>
-      <header>
-        <div className="main-header">
-          <Brand />
-          <SearchBar />
-          <HeaderMenu />
-        </div>
-        <div className="sec-header">
-          <Categories />
-          <CategoriesList />
-          <ShoppingCart />
-        </div>
-      </header>
-    </>
+    <header>
+      <div className="main-header">
+        <Brand />
+        <SearchBar />
+        <HeaderMenu />
+      </div>
+      <div className="sec-header">
+        <Categories />
+        <CategoriesList />
+        <ShoppingCart />
+      </div>
+    </header>
   );
 }
 

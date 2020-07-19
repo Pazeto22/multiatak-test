@@ -16,9 +16,20 @@
   color: #fdfdfd;
   font-weight: bold;
 
+  @media (max-width: 1023px) {
+    height: 48px;
+    width: 96px;
+    font-size: 12px;
+    margin-left: 0.5rem;
+  }
+
   span {
     position: relative;
     left: 24px;
     bottom: 10px;
+
+    @media (max-width: 1023px) {
+      left: 15px;
+    }
   }
 }

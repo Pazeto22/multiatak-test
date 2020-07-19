@@ -6,7 +6,7 @@ function ShoppingCart() {
   return (
     <div className="shoppingCartWrapper">
       <button className="cartBtn">
-        <span>100</span>
+        <span>0</span>
       </button>
     </div>
   );

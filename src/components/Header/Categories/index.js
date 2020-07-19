@@ -5,7 +5,7 @@ import "./styles.scss";
 function Categories() {
   const [isOpen, setIsOpen] = useState(false);
   // eslint-disable-next-line
-  const toggleMenu = () => setIsOpen((isOpen = !isOpen));
+  const toggleMenu = () => setIsOpen(!isOpen);
 
   return (
     <div className="categoriesWrapper">

@@ -14,6 +14,10 @@ a {
   justify-items: center;
   align-items: center;
   margin: 2rem;
+
+  @media (max-width: 1023px) {
+    display: none;
+  }
 }
 
 .cService::before,

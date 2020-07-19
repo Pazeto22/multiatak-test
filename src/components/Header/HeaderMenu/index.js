@@ -5,11 +5,11 @@ import "./styles.scss";
 function HeaderMenu() {
   return (
     <div className="wrapperHeaderMenu">
-      <a href="/">
-        <div className="cService">Atendimento</div>
+      <a className="cService" href="/">
+        <span>Atendimento</span>
       </a>
-      <a href="/">
-        <div className="myAccount">Minha Conta</div>
+      <a className="myAccount" href="/">
+        <span>Minha Conta</span>
       </a>
     </div>
   );

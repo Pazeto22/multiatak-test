@@ -1,8 +1,19 @@
+header {
+  position: fixed;
+  width: 100vw;
+}
+
 .main-header {
   height: 96px;
   width: 100%;
   background: #1b1b1b;
   display: flex;
+
+  @media (max-width: 1023px) {
+    height: auto;
+    display: grid;
+    grid-template-rows: 48px 60px;
+  }
 }
 
 .sec-header {
@@ -11,4 +22,8 @@
   background: #141414;
   display: flex;
   justify-content: space-between;
+
+  @media (max-width: 1023px) {
+    display: none;
+  }
 }
