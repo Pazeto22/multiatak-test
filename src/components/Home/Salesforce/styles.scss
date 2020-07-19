@@ -1,0 +1,70 @@
+.salesforceWrapper {
+  width: 100%;
+  font-size: 14px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  margin-top: -6vh;
+  background: #fdfdfd;
+  position: relative;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.15);
+
+  div + div {
+    border-left: 1px solid #eeeeee;
+  }
+
+  @media (max-width: 1023px) {
+    box-shadow: none;
+    position: unset;
+    margin-top: 0.2rem;
+    grid-template-columns: repeat(auto-fit, minmax(50%, 1fr));
+    text-align: center;
+    font-size: 12px;
+  }
+}
+
+.salesforceContent {
+  padding: 1.8rem 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  @media (max-width: 1023px) {
+    height: 120px;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    border-bottom: 1px solid #eeeeee;
+  }
+}
+
+.salesforceContent::before {
+  content: "";
+  height: 25px;
+  width: 25px;
+  background-repeat: no-repeat;
+  display: inline-block;
+  padding-right: 1.5rem;
+  vertical-align: -25%;
+
+  @media (max-width: 1023px) {
+    vertical-align: 0;
+    display: block;
+    padding: 0;
+  }
+}
+
+.sfEntrega::before {
+  background-image: url(../../../assets/iconeshome/icones-forca-de-venda/entregamos-todo-pais.svg);
+}
+
+.sfPagamento::before {
+  background-image: url(../../../assets/iconeshome/icones-forca-de-venda/parcelamos-cartao.svg);
+}
+
+.sfSeguranca::before {
+  background-image: url(../../../assets/iconeshome/icones-forca-de-venda/site-seguro-confiavel.svg);
+}
+
+.sfTroca::before {
+  background-image: url(../../../assets/iconeshome/icones-forca-de-venda/primeira-troca-gratis.svg);
+}

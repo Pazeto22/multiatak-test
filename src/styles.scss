@@ -10,6 +10,10 @@
 
 body {
   font-family: Ubuntu, sans-serif;
-  background: #fdfdfd;
+  background-color: #fdfdfd;
   color: #212121;
+
+  @media (max-width: 1023px) {
+    background-color: #f1f1f1;
+  }
 }
