@@ -1,10 +1,13 @@
 .bannerWrapper {
   margin-top: 168px;
+  background-color: #fdfdfd;
 
   @media (max-width: 1023px) {
     margin-top: 108px;
   }
 }
+
+// Começo Banner sem carrossel
 
 .bannerWrpDesktop {
   width: 100%;
@@ -33,5 +36,16 @@
 
   @media (min-width: 1023px) {
     display: none;
+  }
+}
+
+// Fim Banner
+
+.bannerBody {
+  width: 80%;
+  margin: 0 auto;
+
+  @media (max-width: 1023px) {
+    width: 95%;
   }
 }

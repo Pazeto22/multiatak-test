@@ -1,6 +1,8 @@
 import React from "react";
 
 import "./styles.scss";
+import Salesforce from "./Salesforce";
+
 import BannerDsk from "../../assets/banners/banner-principal-desk.jpg";
 import BannerMbl from "../../assets/banners/banner-principal-mobile.jpg";
 
@@ -13,6 +15,9 @@ function Banner() {
       <div className="bannerWrpMobile">
         <img src={BannerMbl} alt="Banner" />
       </div>
+      <section className="bannerBody">
+        <Salesforce />
+      </section>
     </div>
   );
 }
