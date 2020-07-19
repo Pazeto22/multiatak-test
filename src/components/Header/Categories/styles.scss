@@ -1,6 +1,6 @@
 .categoriesWrapper {
-  // width: calc(33% - 72px);
   margin-right: 72px;
+  // width: calc(33% - 72px);
 }
 
 .categoriesMenu {
@@ -48,11 +48,9 @@
 
 .categoriesMore {
   background-color: #1b1b1b;
-  width: 100%;
+  width: 100vw;
   color: #fdfdfd;
   transition: linear 0.2s;
-  margin-top: -56px;
-  display: none;
 
   ul {
     display: flex;

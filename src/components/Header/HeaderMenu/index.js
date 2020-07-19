@@ -4,16 +4,14 @@ import "./styles.scss";
 
 function HeaderMenu() {
   return (
-    <>
-      <div className="wrapperHeaderMenu">
-        <a href="/">
-          <div className="cService">Atendimento</div>
-        </a>
-        <a href="/">
-          <div className="myAccount">Minha Conta</div>
-        </a>
-      </div>
-    </>
+    <div className="wrapperHeaderMenu">
+      <a href="/">
+        <div className="cService">Atendimento</div>
+      </a>
+      <a href="/">
+        <div className="myAccount">Minha Conta</div>
+      </a>
+    </div>
   );
 }
 

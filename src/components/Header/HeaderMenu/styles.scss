@@ -6,6 +6,7 @@ a {
 }
 
 .wrapperHeaderMenu {
+  min-width: 280px;
   display: grid;
   grid-template-columns: 1fr 1fr;
   font-size: 14px;

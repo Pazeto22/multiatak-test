@@ -7,6 +7,7 @@ import SearchBar from "./SearchBar";
 import HeaderMenu from "./HeaderMenu";
 import Categories from "./Categories";
 import CategoriesList from "./CategoriesList";
+import ShoppingCart from "./ShoppingCart";
 
 function Header() {
   return (
@@ -20,6 +21,7 @@ function Header() {
         <div className="sec-header">
           <Categories />
           <CategoriesList />
+          <ShoppingCart />
         </div>
       </header>
     </>
