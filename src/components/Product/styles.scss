@@ -1,6 +1,5 @@
 .productWrapper {
   background-color: #fdfdfd;
-  // max-width: 220px;
   padding: 1rem;
   padding-bottom: 0;
   max-height: 350px;
@@ -16,7 +15,6 @@
 
     > .productCartBtn {
       margin-top: 2rem;
-      visibility: visible;
       opacity: 100%;
     }
   }
@@ -78,7 +76,6 @@
 }
 
 .productCartBtn {
-  visibility: hidden;
   background: none;
   background-color: #141414;
   color: #fbfbfb;
