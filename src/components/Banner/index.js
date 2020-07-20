@@ -2,6 +2,7 @@ import React from "react";
 
 import "./styles.scss";
 import Salesforce from "./Salesforce";
+import SecondaryBanner from "./SecondaryBanner";
 
 import BannerDsk from "../../assets/banners/banner-principal-desk.jpg";
 import BannerMbl from "../../assets/banners/banner-principal-mobile.jpg";
@@ -17,6 +18,7 @@ function Banner() {
       </div>
       <section className="bannerBody">
         <Salesforce />
+        <SecondaryBanner />
       </section>
     </div>
   );

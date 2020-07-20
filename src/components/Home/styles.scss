@@ -1,3 +1,29 @@
+.homeBannerSeparation {
+  width: 100%;
+  padding-top: 3.25rem;
+  padding-bottom: 1rem;
+  position: relative;
+  margin: 0 auto;
+  margin-bottom: -33px;
+  background-image: url(../../assets/iconeshome/enfeite-mais-vendidos-esquerda.svg),
+    url(../../assets/iconeshome/enfeite-mais-vendidos-direita.svg);
+  background-repeat: no-repeat;
+  background-position: top left, top right;
+
+  @media (max-width: 1023px) {
+    padding-top: 1.25rem;
+    padding-bottom: 0.8rem;
+    margin-bottom: -22px;
+  }
+}
+
+.homeTitle {
+  @media (max-width: 1023px) {
+    text-align: center;
+    font-size: 18px;
+  }
+}
+
 .homeWrappper {
   width: 80%;
   margin: 0 auto;
