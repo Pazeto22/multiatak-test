@@ -1,0 +1,121 @@
+.productWrapper {
+  background-color: #fdfdfd;
+  // max-width: 220px;
+  padding: 1rem;
+  padding-bottom: 0;
+  max-height: 350px;
+  padding-top: 4rem;
+  margin-top: 0.5rem;
+  border-top: 3px solid transparent;
+  transition: all 0.5s ease-out;
+
+  &:hover {
+    border-top: 3px solid #a70000;
+    padding-bottom: 2rem;
+    max-height: 416px;
+
+    > .productCartBtn {
+      margin-top: 2rem;
+      visibility: visible;
+      opacity: 100%;
+    }
+  }
+
+  @media (max-width: 1023px) {
+    padding-bottom: 2rem;
+    max-height: unset;
+    padding-top: 2rem;
+  }
+}
+
+.productFeat {
+  color: #8b8b8b;
+  text-align: center;
+  font-size: 14px;
+  margin-bottom: 1.5rem;
+  cursor: pointer;
+
+  img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 0.5rem;
+  }
+
+  @media (max-width: 1023px) {
+    font-size: 12px;
+  }
+}
+
+.productName {
+  width: 80%;
+  margin: 0 auto;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.productPrice {
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  color: #a70000;
+
+  @media (max-width: 1023px) {
+    font-size: 16px;
+  }
+}
+
+.productPayment {
+  font-size: 13px;
+  font-weight: lighter;
+  text-align: center;
+
+  .paymentBold {
+    font-weight: bold;
+  }
+}
+
+.productCartBtn {
+  visibility: hidden;
+  background: none;
+  background-color: #141414;
+  color: #fbfbfb;
+  text-transform: uppercase;
+  letter-spacing: 1.8px;
+  font-weight: bold;
+  outline: none;
+  border: none;
+  width: 100%;
+  padding: 1rem;
+  cursor: pointer;
+  transition: all 0.5s ease-out;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0%;
+
+  &:hover {
+    background-color: #2e2e2e;
+  }
+
+  @media (max-width: 1023px) {
+    margin-top: 2rem;
+    visibility: visible;
+    opacity: 100%;
+    padding: 0.5rem;
+
+    .productCartBtnText {
+      display: none;
+    }
+  }
+}
+
+.productCartBtnIcon {
+  width: 26px;
+  height: 26px;
+  background-image: url(../../assets/iconeshome/carrinho-produtos.svg);
+  background-repeat: no-repeat;
+  margin-right: 0.5rem;
+}
